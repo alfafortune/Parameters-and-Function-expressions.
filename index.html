@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to the world of JavaScript</title>
+</head>
+
+<body>
+    <h2>Welcome to the world of JavaScript</h2>
+    <p id="result"></p> <!-- Show result here -->
+
+    <script>
+        function sumOfTwoNumbers() {
+            let x = 5;
+            let y = 6;
+            let z = x + y;
+            return z;
+        }
+
+        let sum = sumOfTwoNumbers();
+        console.log('The Sum of x and y is ' + sum);
+
+        // Show it on the page as well
+        document.getElementById('result').innerText = 'The Sum of x and y is ' + sum;
+    </script>
+</body>
+
+</html>
